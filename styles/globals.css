@@ -6,6 +6,8 @@
     background-color: rgb(31, 31, 31);
     border: 4px solid #6d00a3;
 } */
+body{background-color: black}
+
 @layer components {
     .sidebarIcon {
       @apply h-6 text-[#808080] cursor-pointer;
