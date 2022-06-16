@@ -7,6 +7,29 @@
     border: 4px solid #6d00a3;
 } */
 body{background-color: black}
+.gold{
+  background-image: linear-gradient(100deg
+  ,#f9f295, #e0aa3e, #f7f086, #b88a44);
+  background-size: 500%;
+  animation: fanimado 5s infinite;
+}
+
+.gold:hover {
+  background-image: linear-gradient(100deg
+  ,#ae8625, #f7ef8a, #d2ac47, #edc967);
+}
+
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
 
 @layer components {
     .sidebarIcon {
