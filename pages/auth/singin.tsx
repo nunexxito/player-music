@@ -24,7 +24,7 @@ export default function Singin({providers}) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <Image src='/img/NEPEX.png' height={145} width={530} objectFit='contain' className='animate-pulse'/>
+            <Image src='/img/NEPEX.png' height={145} width={530} objectFit='contain' className='animate-pulse logo'/>
             {Object.values(providers).map(provider => (
                 <div key={provider.name}>
                     <button
