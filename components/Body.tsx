@@ -80,7 +80,7 @@ export default function Body({spotifyApi, chooseTrack}) {
             </div>
             <div  className="flex gap-x-8 absolute min-w-full md:relative ml-6">
                 {/* Genres */}
-                <div className="hidden xl:inline max-w-[270px]">
+                {/* <div className="hidden xl:inline max-w-[270px]">
                     <h2 className="text-white font-bold mb-3">Genres</h2>
                     <div className="flex gap-x-2 gap-y-2.5 flex-wrap mb-3">
                         <div className="genre">Classic</div>
@@ -96,7 +96,7 @@ export default function Body({spotifyApi, chooseTrack}) {
                     <button className="text-[#CECECE] bg-[#1A1A1A] text-[13px] py-3.5 px-4 rounded-2xl w-full font-bold bg-opacity-80 hover:bg-opacity-100 transition ease-out">
                         All Genres
                     </button>
-                </div>
+                </div> */}
 
                 {/* Tracks */}
                 <div className="w-full pr-11">
